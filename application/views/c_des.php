@@ -8,17 +8,17 @@
           <br>
           <div class="col-lg-4">
             <img src="aset/img/intro01.png" alt="">
-            <h3>Community</h3>
+            <h3>Stok</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           <div class="col-lg-4">
             <img src="aset/img/intro02.png" alt="">
-            <h3>Schedule</h3>
+            <h3>Jadwal</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
           <div class="col-lg-4">
             <img src="aset/img/intro03.png" alt="">
-            <h3>Monitoring</h3>
+            <h3>Absensi</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
         </div>
@@ -33,7 +33,7 @@
     <div id="features">
       <div class="container">
         <div class="row">
-          <h1 class="centered">What's New?</h1>
+          <h1 class="centered">Berita Di Apotik</h1>
           <br>
           <br>
           <div class="col-lg-6 centered">

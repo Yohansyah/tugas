@@ -21,19 +21,19 @@
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <label for="contact-email">Jenis</label>
-              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Tipe" data-rule="email" data-msg="Please enter a valid email">
+              <label for="contact-email">Email</label>
+              <input type="email" name="email" class="form-control" id="contact-email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <label for="contact-subject">Pemakaian</label>
-              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Cara" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <label for="contact-subject">HP</label>
+              <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="No" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
               <div class="validate"></div>
             </div>
 
             <div class="form-group">
               <label for="contact-message"></label>
-              <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <textarea class="form-control" name="message" id="contact-message" placeholder="Notice" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
               <div class="validate"></div>
             </div>
 
