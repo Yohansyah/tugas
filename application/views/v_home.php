@@ -51,7 +51,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li><a href="#desc" class="smothscroll">Description</a></li>
           <li><a href="#showcase" class="smothscroll">Showcase</a></li>
           <li><a href="#contact" class="smothscroll">Regristrasi</a></li>
-          <li><a href="#cek" class="smothscroll">Jenis Obat</a></li>
+          <li><a href="#jenis" class="smothscroll">Jenis Obat</a></li>
+          <li><a href="#data" class="smothscroll">Data Obat</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
@@ -66,7 +67,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <?php $this->load->view('c_reg');?>
 
-<?php $this->load->view('c_cek');?>
+<?php $this->load->view('c_jenis');?>
+
+<?php $this->load->view('c_data');?>
 
   <div id="copyrights">
     <div class="container">
