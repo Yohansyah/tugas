@@ -1,5 +1,5 @@
   <section id="contact" name="contact">
-    <div id="aqua">
+    <div id="footerwrap">
       <div class="container">
         <div class="col-lg-5">
           <h3>.</h3>
