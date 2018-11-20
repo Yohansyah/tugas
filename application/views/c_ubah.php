@@ -22,6 +22,11 @@
                 <input type="stok" name="stok" class="form-control" id="contact-stok" placeholder="Stok" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
+              <div class="form-group">
+                <label for="contact-harga">Harga</label>
+                <input type="harga" name="harga" class="form-control" id="contact-harga" placeholder="Harga" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
               <br>
             </form>
           </div>
