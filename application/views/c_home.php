@@ -21,7 +21,7 @@
             <img class="hidden-xs hidden-sm hidden-md" src="aset/img/arrow2.png">
             <h5>Awesome Design</h5>
             <h5>lengkap<h5>
-			<h5>Terpercaya<h5>
+			      <h5>Terpercaya<h5>
           </div>
         </div>
       </div>
