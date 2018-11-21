@@ -27,6 +27,12 @@
                 <input type="harga" name="harga" class="form-control" id="contact-harga" placeholder="Harga" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
+              <div class="form-edit">
+              <button type="submit" class="btn btn-large">Edit</button>
+            </div>
+            <div class="form-delete">
+              <button type="submit" class="btn btn-large">Delete</button>
+            </div>
               <br>
             </form>
           </div>
