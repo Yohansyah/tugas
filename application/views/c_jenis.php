@@ -21,6 +21,7 @@
             <div class="form-edit">
               <button type="submit" class="btn btn-large">Edit</button>
             </div>
+            <br>
             <div class="form-delete">
               <button type="submit" class="btn btn-large">Delete</button>
             </div>
