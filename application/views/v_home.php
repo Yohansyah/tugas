@@ -54,9 +54,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li><a href="#jenis" class="smothscroll">Jenis Obat</a></li>
           <li><a href="#data" class="smothscroll">Data Obat</a></li>
           <li><a href="#ubah" class="smothscroll">Ubah Data Obat</a></li>
+          <li><a href="#ubah" class="smothscroll">Tambah Obat</a></li>
         </ul>
       </div>
-      <!--/.nav-collapse -->
     </div>
   </div>
 
@@ -73,6 +73,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php $this->load->view('c_data');?>
 
 <?php $this->load->view('c_ubah');?>
+
+<?php $this->load->view('c_add');?>
 
   <div id="copyrights">
     <div class="container">
