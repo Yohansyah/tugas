@@ -1,50 +1,42 @@
-<section id="ubah" name="ubah">
-  <div id="ubah">
-    <div style="background: #708090;">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <h2>Ubah Data Obat</h2>
-            <br>
-            <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
-              <div class="form-group">
-                <label for="contact-kode">Kode</label>
-                <input type="kode" name="kode" class="form-control" id="contact-kode" placeholder="Kode" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="contact-nama">Nama Obat</label>
-                <input type="nama" name="nama" class="form-control" id="contact-nama" placeholder="Nama Obat" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="contact-stok">Stok</label>
-                <input type="stok" name="stok" class="form-control" id="contact-stok" placeholder="Stok" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <label for="contact-harga">Harga</label>
-                <input type="harga" name="harga" class="form-control" id="contact-harga" placeholder="Harga" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div>
-              <div class="form-edit">
-              <button type="submit" class="btn btn-large">Edit</button>
-            </div>
-            <br>
-            <div class="form-delete">
-              <button type="submit" class="btn btn-large">Delete</button>
-            </div>
-            <br>
-            <div class="form-add">
-              <button type="submit" class="btn btn-large">Add</button>
-            </div>
-              <br>
-            </form>
-          </div>
-          <br>
-          <br>
-        </div>
-      </div>
+<section class='content-header'>
+    <h1>
+        PELANGGAN
+        <small>Form pelanggan</small>
+    </h1>
+    <ol class='breadcrumb'>
+        <li><a href='#'><i class='fa fa-suitcase'></i>Master</a></li>
+        <li class='active'>Form pelanggan</li>
+    </ol>
+</section>        
+<section class='content'>
+    <div class='row'>
+        <!-- left column -->
+        <div class='col-md-12'>
+            <!-- general form elements -->
+            <div class='box box-primary'>
+                <div class='box-header'>
+                    <div class='col-md-5'>
+                        <form action="<?php echo $action; ?>" method="post">
+                            <div class='box-body'>
+                                <div class='form-group'>Nama Pelanggan <?php echo form_error('nama_pelanggan') ?>
+                                    <input type="text" class="form-control" name="nama_pelanggan" id="nama_pelanggan" placeholder="Nama Pelanggan" value="<?php echo $nama_pelanggan; ?>" />
+                                </div>
+                                <div class='form-group'>Alamat <?php echo form_error('alamat') ?>
+                                    <textarea type="text" class="form-control" name="alamat" id="alamat" placeholder="Alamat" ><?php echo $alamat; ?></textarea>
+                                </div>
+                                <div class='form-group'>No Telp <?php echo form_error('no_telpn') ?>
+                                    <input type="number" class="form-control" name="no_telpn" id="no_telpn" placeholder="No Telp" value="<?php echo $no_telpn; ?>" />
+                                </div>                                
+                            </div>
+                            <div class='box-footer'>
+                                <input type="hidden" name="id_pelanggan" value="<?php echo $id_pelanggan; ?>" /> 
+                                <button type="submit" class="btn btn-primary"><?php echo $button ?></button> 
+                                <a href="<?php echo site_url('pelanggan') ?>" class="btn btn-default">Cancel</a>
+                            </div>
+                        </form>
+                    </div><!-- /.box-body -->
+                </div><!-- /.box -->
+            </div><!-- /.col -->
+        </div><!-- /.row -->
     </div>
-  </div>
-</section>
+</section><!-- /.content -->

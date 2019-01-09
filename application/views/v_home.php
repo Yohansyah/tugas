@@ -48,9 +48,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-          <li><a href="#desc" class="smothscroll">Description</a></li>
-          <li><a href="#showcase" class="smothscroll">Showcase</a></li>
-          <li><a href="#contact" class="smothscroll">Regristrasi</a></li>
           <li><a href="#jenis" class="smothscroll">Jenis Obat</a></li>
           <li><a href="#data" class="smothscroll">Data Obat</a></li>
           <li><a href="#ubah" class="smothscroll">Ubah Data Obat</a></li>
@@ -63,10 +60,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php $this->load->view('c_home');?>
 
 <?php $this->load->view('c_des');?>
-
-<?php $this->load->view('c_show');?>
-
-<?php $this->load->view('c_reg');?>
 
 <?php $this->load->view('c_jenis');?>
 

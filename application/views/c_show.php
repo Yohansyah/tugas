@@ -1,4 +1,4 @@
-<section id="showcase" name="showcase">
+<!-- <section id="showcase" name="showcase">
     <div id="showcase">
       <div class="container">
         <div class="row">
@@ -30,4 +30,4 @@
       </div>
       <!-- /container -->
     </div>
-  </section>
+  </section> -->

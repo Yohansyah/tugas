@@ -10,7 +10,7 @@
         </div>
 
         <div class="col-lg-7">
-          <h3>Menu</h3>
+          <h3>Menuh</h3>
 
           <br>
           <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
