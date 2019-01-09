@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row centered">
           <div class="col-lg-12">
-            <h1>Obatcube.On</h1>
+            <h1>Pulsa.On</h1>
             <h3><b>Welcome</b></h3>
             <br>
           </div>
@@ -14,7 +14,7 @@
             <img class="hidden-xs hidden-sm hidden-md" src="aset/img/arrow1.png">
           </div>
           <div class="col-lg-8">
-            <img class="img-responsive" src="aset/img/20.jpg" alt="">
+            <img class="img-responsive" src="aset/img/pulsa.jpg" alt="">
           </div>
           <div class="col-lg-2">
             <br>

@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-7">
-          <h3>Data Jenis Obat</h3>
+          <h3>Data Jenis </h3>
 
           <br>
           <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
@@ -14,7 +14,7 @@
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <label for="contact-jenis">Nama Jenis Obat</label>
+              <label for="contact-jenis">Nama Jenis </label>
               <input type="jenis" name="jenis" class="form-control" id="contact-jenis" placeholder="Jenis" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>

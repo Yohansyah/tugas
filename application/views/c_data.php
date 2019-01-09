@@ -11,7 +11,7 @@
       <th>NoHP</th>
       <th>Jumlah</th>
     <tr>
-    <?php foreach($user as $u){ ?>
+    <?php foreach($pelanggan as $u){ ?>
       <td><?php echo $u->nama ?></td>
       <td><?php echo $u->noHP ?></td>
       <td><?php echo $u->jumlah ?></td>

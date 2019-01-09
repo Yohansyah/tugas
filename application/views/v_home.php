@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>Cek Obat</title>
+  <title>PulsaOn</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -43,15 +43,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand smothscroll" href="#home"><b><i>Yoikihans Klinik</i></b></a>
+        <a class="navbar-brand smothscroll" href="#home"><b><i>Yoikihans Cells</i></b></a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#home" class="smothscroll">Home</a></li>
-          <li><a href="#jenis" class="smothscroll">Jenis Obat</a></li>
-          <li><a href="#data" class="smothscroll">Data Obat</a></li>
-          <li><a href="#ubah" class="smothscroll">Ubah Data Obat</a></li>
-          <li><a href="#ubah" class="smothscroll">Tambah Obat</a></li>
+          <li><a href="#jenis" class="smothscroll">Jenis </a></li>
+          <li><a href="#data" class="smothscroll">Data Pelanggan</a></li>
+          <li><a href="#ubah" class="smothscroll">Ubah Data Pelanggan</a></li>
+          <li><a href="#ubah" class="smothscroll">Tambah Transaksi</a></li>
         </ul>
       </div>
     </div>
